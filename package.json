@@ -1,0 +1,29 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.34.2",
+    "express": "^4.18.2",
+    "libreoffice-convert": "^1.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "pizzip": "^3.1.4",
+    "read-excel-file": "^5.6.1",
+    "uuid": "^9.0.0"
+  }
+}
